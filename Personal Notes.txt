@@ -5,6 +5,11 @@ In cmd line, type npm run start
 <Router> will wrap all of the routes we'll define.
 
 // Shortcuts to edit
-CTRL+SHIFT+ARROW is to select from the curor to the end of the word
-CRTL+/ is to make a comment block
-SHIFT+ALT+dwnARROW to duplicate down
+Comment:
+	CRTL+/
+Duplicate a line down:
+	SHIFT+ALT+dwnARROW
+Select from the cursor to the end of the word
+	CTRL+SHIFT+ARROW 
+Select word at cursor:
+	CRTL+D 
