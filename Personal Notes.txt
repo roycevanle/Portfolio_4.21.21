@@ -1,3 +1,6 @@
+// To run server locally for testing
+In cmd line, type npm run start
+
 // What is a router?
 <Router> will wrap all of the routes we'll define.
 
