@@ -65,6 +65,8 @@ class Carousel extends React.Component {
     // so we don't have to bind it to soemthing later
     makeItems = (items)  => {
         return items.map(item => {
+            // we have to provide a key because we're mapping through the array of items & creating new element for every item
+            // I SEE, THIS THIS IS A PROP, AN OBJECT, WE HAVE A CARD OBJECT WITH THESE PROPERTIES WHICH IS PASSED TO CARD.JS
             return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id}/>
         })
     }
@@ -73,6 +75,8 @@ class Carousel extends React.Component {
         return (
             <Container fluid={true}>
                 <Row className="justify-content-around">
+                    {/* So this is where we make each of the cards with the event listener */}
+                    {/* returns a card with key=item.id to differentiate them */}
                     {this.makeItems(this.state.items)}
                 </Row>
             </Container>
