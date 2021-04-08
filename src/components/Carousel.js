@@ -8,7 +8,6 @@ import proj3 from '../assets/images/proj3.jpg';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 class Carousel extends React.Component {
     constructor(props) {
